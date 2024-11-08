@@ -81,5 +81,5 @@ app.get('/explorer/token-all-token-program', getDetailAllTokenProgramController.
 
 // Menjalankan server
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Server running at port${port}`);
 });

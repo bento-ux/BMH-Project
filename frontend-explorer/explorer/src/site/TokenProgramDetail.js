@@ -15,7 +15,7 @@ function TokenProgramDetail() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://3becc90ef3474ed3dc7dc468f3724f6c.serveo.net/explorer/token-program-detail",
+          "https://backend.e-asset.co/explorer/token-program-detail",
           {
             params: { tokenName: tokenName }, // Use tokenName as the parameter
           }

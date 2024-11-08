@@ -2,7 +2,7 @@
 const mysql = require('mysql2/promise');
 
 const pool = mysql.createPool({
-    host: 'localhost',
+    host: '127.0.0.1',
     user: 'root', // sesuaikan dengan username MySQL Anda
     password: '', // sesuaikan dengan password MySQL Anda
     database: 'BC_EXPLORER_DB',

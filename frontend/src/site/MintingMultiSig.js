@@ -712,7 +712,7 @@ const MintingMultiSig = () => {
 
 			try {
                 // Memanggil API dengan axios
-                const response = await axios.get('http://localhost:3001/get-program-token', {
+                const response = await axios.get('https://backend.e-asset.co/get-program-token', {
                     params: { tokenProgramId: selectedTokenId }
                 });
                 console.log('Data dari database:', response.data);
@@ -835,7 +835,7 @@ const MintingMultiSig = () => {
 		try {	
 			// let tokenId = 1;
 			// let tokenSymbol = "TKQ";
-			const response = await axios.post('http://localhost:3001/get-txhash-campaign', {
+			const response = await axios.post('https://backend.e-asset.co/get-txhash-campaign', {
 				tokenId,
 				tokenSymbol
 			});

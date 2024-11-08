@@ -12,7 +12,7 @@ function HomeGetAllToken() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://3becc90ef3474ed3dc7dc468f3724f6c.serveo.net/explorer/home"
+          "https://backend.e-asset.co/explorer/home"
         );
 
         console.log("API Response:", response.data); // Debug log

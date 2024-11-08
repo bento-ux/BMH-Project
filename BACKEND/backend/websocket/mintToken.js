@@ -606,7 +606,7 @@ const subscribeToTokenUmumMinted = () => {
 
 				console.log(`isi response program ${sendWaNotification.data.program}`)
 				const connection = await mysql.createConnection({
-					host: 'localhost',      // Host default untuk XAMPP
+					host: '127.0.0.1',      // Host default untuk XAMPP
 					user: 'root',           // User default XAMPP
 					password: '',           // Password default kosong (ganti jika Anda mengubahnya)
 					database: 'BC_EXPLORER_DB', // Nama database yang Anda buat di phpMyAdmin

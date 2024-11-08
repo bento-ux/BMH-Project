@@ -16,7 +16,7 @@ function TransactionDistribution() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://3becc90ef3474ed3dc7dc468f3724f6c.serveo.net/explorer/distribution-token",
+          "https://backend.e-asset.co/explorer/distribution-token",
           {
             params: { txHash: txHash },
           }

@@ -618,7 +618,7 @@ const subscribeToTransferDistributionTokenEvent = () => {
 		console.log(txHashDataUmum)
 		try {
 			// Kirim POST request ke backend
-			await axios.post('http://localhost:3001/send-distribution', { txHashes:txHashDataUmum,txHashDistribusi: txHashDistribusiData,signers:signers });
+			await axios.post('https://backend.e-asset.co/send-distribution', { txHashes:txHashDataUmum,txHashDistribusi: txHashDistribusiData,signers:signers });
 			console.log('Data dikirim ke backend');
 		} catch (error) {
 			console.error('Error mengirim data ke backend:', error);

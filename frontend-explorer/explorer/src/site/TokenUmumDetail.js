@@ -21,7 +21,7 @@ function TokenUmumDetail() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://3becc90ef3474ed3dc7dc468f3724f6c.serveo.net/explorer/token-umum-detail",
+          "https://backend.e-asset.co/explorer/token-umum-detail",
           {
             params: { tokenName },
           }

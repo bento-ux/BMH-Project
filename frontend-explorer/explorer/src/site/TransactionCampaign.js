@@ -15,7 +15,7 @@ function TransactionCampaign() {
       try {
         // Panggil API pertama untuk mendapatkan detail transaksi berdasarkan txHash
         const response = await axios.get(
-          "https://3becc90ef3474ed3dc7dc468f3724f6c.serveo.net/explorer/tx-hash-campaign",
+          "https://backend.e-asset.co/explorer/tx-hash-campaign",
           {
             params: { txHash: txHash },
           }

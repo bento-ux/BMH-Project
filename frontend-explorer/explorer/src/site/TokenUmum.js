@@ -12,7 +12,7 @@ function TokenUmum() {
       try {
         // Panggil API pertama untuk mendapatkan detail transaksi berdasarkan txHash
         const response = await axios.get(
-          "https://3becc90ef3474ed3dc7dc468f3724f6c.serveo.net/explorer/get-all-token-umum"
+          "https://backend.e-asset.co/explorer/get-all-token-umum"
         );
 
         setResult(response.data); // Simpan hasil respons dari API pertama
